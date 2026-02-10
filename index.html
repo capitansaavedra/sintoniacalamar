@@ -3,62 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #4B2D1F; color: #ffffff; }
-        h2 { font-weight: 900; }
-        .nav-link { font-size: 10px; font-weight: 900; text-transform: uppercase; tracking: 0.2em; color: rgba(255,255,255,0.6); }
-        .nav-link:hover { color: #ffffff; }
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;900&display=swap');
+        body { background-color: #4B2D1F; color: #ffffff; font-family: 'Inter', sans-serif; margin: 0; padding: 0; }
+        
+        .header { background: #ffffff; padding: 30px 50px; display: flex; align-items: center; border-bottom: 6px solid #F5F5DC; }
+        .logo-container { display: flex; align-items: center; gap: 30px; max-width: 1100px; margin: 0 auto; width: 100%; }
+        .logo-img { height: 100px; width: auto; }
+        
+        .brand-text { color: #4B2D1F; }
+        .main-title { font-family: 'Archivo Black', sans-serif; font-size: 50px; line-height: 0.8; text-transform: uppercase; margin: 0; font-style: italic; letter-spacing: -3px; }
+        .slogan { font-size: 14px; font-weight: 900; text-transform: uppercase; margin-top: 5px; color: #4B2D1F; letter-spacing: 1px; opacity: 0.7; }
+        
+        .contenedor { max-width: 900px; margin: 0 auto; padding: 80px 20px; }
+        
+        .redes-footer { margin-top: 100px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 50px; text-align: center; padding-bottom: 100px; }
+        .redes-footer a { color: #F5F5DC; text-decoration: none; font-size: 12px; font-weight: 900; letter-spacing: 3px; margin: 0 20px; }
     </style>
 </head>
-<body class="antialiased">
-    <nav class="p-8 flex justify-between items-center max-w-7xl mx-auto">
-        <img src="https://i.postimg.cc/mD8pL9f4/Sintonia-Calamar-Logo.png" class="h-10 brightness-0 invert">
-        <div class="flex gap-8">
-            <a href="https://www.instagram.com/capitan.saavedra/" target="_blank" class="nav-link">Instagram</a>
-            <a href="https://www.youtube.com/@capitansaavedratv" target="_blank" class="nav-link">YouTube</a>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="LOGO SINTONIA.jpg" class="logo-img" onerror="this.src='https://i.postimg.cc/mD8pL9f4/Sintonia-Calamar-Logo.png'">
+            <div class="brand-text">
+                <h1 class="main-title">SINTONIA<br>CALAMAR</h1>
+                <p class="slogan">...el mismo sentimiento</p>
+            </div>
         </div>
-    </nav>
+    </header>
 
-    <main class="max-w-5xl mx-auto px-6 py-20">
-        <header class="mb-32">
-            <p class="text-[10px] font-black uppercase tracking-[0.5em] text-white/40 mb-2">Sintonía Calamar • 10 Feb 2026</p>
-            <div class="h-[1px] w-20 bg-orange-400"></div>
-        </header>
+    <div class="contenedor">
+        <div style="margin-bottom: 70px;">
+            <p style="font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 6px; color: #F5F5DC; border-left: 4px solid #F5F5DC; padding-left: 15px;">ACTUALIDAD • 10/2/2026</p>
+        </div>
 
         
-        <article class="mb-20 border-b border-white/10 pb-10">
-          <p class="text-orange-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4">La Nación</p>
-          <h2 class="text-5xl md:text-7xl font-black text-white leading-[0.85] tracking-tighter uppercase italic mb-8">Próximo partido de Boca: cuándo juega vs. Platense</h2>
-          <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjRCaFRnTjdhTzNlbEh6M0Y2ZU1BWUdJSWlYSDRuM2tobkZhUkdfNktlRGhhZExtNEg3YmstLVRFZlZGbVBHLUF2TGxkSFpOemlpMVRENUhJR0NFMHFxcjdpSEh0ZW82b0d1eG43MUdYVVVvZWJBZkpIcWVzMHI5T1NhMG1sTW5DU2doQ29rUFRsbHdmbjZnYlJBYUNFcHJycXFSVUFxY0s?oc=5" target="_blank" class="text-white border border-white/30 px-6 py-2 rounded-full text-[10px] font-bold uppercase hover:bg-white hover:text-[#4B2D1F] transition-all">Leer artículo completo</a>
+        <article style="margin-bottom: 80px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 40px;">
+          <h2 style="font-family: 'Archivo Black', sans-serif; font-size: 52px; font-weight: 900; line-height: 0.85; margin: 0 0 20px 0; color: #ffffff; text-transform: uppercase; font-style: italic; letter-spacing: -3px;">Próximo partido de Boca: cuándo juega vs. Platense</h2>
+          <p style="color: #F5F5DC; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 25px;">FUENTE: La Nación</p>
+          <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjRCaFRnTjdhTzNlbEh6M0Y2ZU1BWUdJSWlYSDRuM2tobkZhUkdfNktlRGhhZExtNEg3YmstLVRFZlZGbVBHLUF2TGxkSFpOemlpMVRENUhJR0NFMHFxcjdpSEh0ZW82b0d1eG43MUdYVVVvZWJBZkpIcWVzMHI5T1NhMG1sTW5DU2doQ29rUFRsbHdmbjZnYlJBYUNFcHJycXFSVUFxY0s?oc=5" target="_blank" style="display: inline-block; border: 2px solid #F5F5DC; color: #F5F5DC; text-decoration: none; padding: 12px 25px; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;">Leer nota completa</a>
         </article>
-        <article class="mb-20 border-b border-white/10 pb-10">
-          <p class="text-orange-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4">Diario Río Negro</p>
-          <h2 class="text-5xl md:text-7xl font-black text-white leading-[0.85] tracking-tighter uppercase italic mb-8">Boca recupera dos jugadores para el partido ante Platense: ¿llega Cavani?</h2>
-          <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWN3MEtfVHhta3VaRHRONlFGQ0U3QTVwRXVCbFBDUlRlaDN0bjFlQTFUZ3p3OHo5cTUxckZKNUM2X2xGSGV1OGhaWUppRXFLeWJJSjJtRVJJRG5CVzRIQTZtWGExa1ViX29oTmtQY3RBQUxuUG4zSWR4TWtKOWJVWHpHRk50ZFcyOEY2WHZIRWplcVBJdkJNT29jX01UN0g4NmpENFJB0gGuAUFVX3lxTFB4NFlsVmRLTTRLVWJKZmlYRDFvdnpvQnpzSFhjSG9TNkZJcS1ZRHY2U1o3djE4V2N4cUEzLXFfMkN5SFBTV1RtejVGZGFZTkR2alRVTVVHMm0xVnBYTFBpQjNFQkNXbVpuRC1Hd0cxaFozdF9fZ0otaTl0RGIzNEJ5MjF5ZzI5anFJb1FoUkNEbG1SMlcwOXF0cl9lWjQzRVN6emM0akFoTWhGalJwQQ?oc=5" target="_blank" class="text-white border border-white/30 px-6 py-2 rounded-full text-[10px] font-bold uppercase hover:bg-white hover:text-[#4B2D1F] transition-all">Leer artículo completo</a>
+        <article style="margin-bottom: 80px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 40px;">
+          <h2 style="font-family: 'Archivo Black', sans-serif; font-size: 52px; font-weight: 900; line-height: 0.85; margin: 0 0 20px 0; color: #ffffff; text-transform: uppercase; font-style: italic; letter-spacing: -3px;">Boca recupera dos jugadores para el partido ante Platense: ¿llega Cavani?</h2>
+          <p style="color: #F5F5DC; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 25px;">FUENTE: Diario Río Negro</p>
+          <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOOWN3MEtfVHhta3VaRHRONlFGQ0U3QTVwRXVCbFBDUlRlaDN0bjFlQTFUZ3p3OHo5cTUxckZKNUM2X2xGSGV1OGhaWUppRXFLeWJJSjJtRVJJRG5CVzRIQTZtWGExa1ViX29oTmtQY3RBQUxuUG4zSWR4TWtKOWJVWHpHRk50ZFcyOEY2WHZIRWplcVBJdkJNT29jX01UN0g4NmpENFJB0gGuAUFVX3lxTFB4NFlsVmRLTTRLVWJKZmlYRDFvdnpvQnpzSFhjSG9TNkZJcS1ZRHY2U1o3djE4V2N4cUEzLXFfMkN5SFBTV1RtejVGZGFZTkR2alRVTVVHMm0xVnBYTFBpQjNFQkNXbVpuRC1Hd0cxaFozdF9fZ0otaTl0RGIzNEJ5MjF5ZzI5anFJb1FoUkNEbG1SMlcwOXF0cl9lWjQzRVN6emM0akFoTWhGalJwQQ?oc=5" target="_blank" style="display: inline-block; border: 2px solid #F5F5DC; color: #F5F5DC; text-decoration: none; padding: 12px 25px; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;">Leer nota completa</a>
         </article>
-        <article class="mb-20 border-b border-white/10 pb-10">
-          <p class="text-orange-400 text-[10px] font-black uppercase tracking-[0.3em] mb-4">Infocielo</p>
-          <h2 class="text-5xl md:text-7xl font-black text-white leading-[0.85] tracking-tighter uppercase italic mb-8">Cómo le fue a Nacho Fernández en su último Clásico Platense | Infocielo</h2>
-          <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQbGpYY256eU05eGk2b3VBdDRXR3Zfb0tkV3hUZmdoNTBUbkJXdk5uZUhLQ1pTVTZsRU5va1dTX1pSaXVPTTA5VnRTa1ZTT3I4OGk0Z3U5bng1MktDbjF0VkU0ejV1c1EwOTlDUUFxa3V5LXBKV2JTTEw3X0RtMUxWRlpfTFVLN1RlZnFPNktWdHFBTXk3QkRnR2NRRW11SkHSAZ8BQVVfeXFMUGxqWGNuenlNOXhpNm91QXQ0V0d2X29LZFd4VGZnaDUwVG5CV3ZObmVIS0NaU1U2bEVOb2tXU19aUml1T00wOVZ0U2tWU09yODhpNGd1OW54NTJLQ24xdFZFNHo1dXNRMDk5Q1FBcWt1eS1wSldiU0xMN19EbTFMVkZaX0xVSzdUZWZxTzZLVnRxQU15N0JEZ0djUUVtdUpB?oc=5" target="_blank" class="text-white border border-white/30 px-6 py-2 rounded-full text-[10px] font-bold uppercase hover:bg-white hover:text-[#4B2D1F] transition-all">Leer artículo completo</a>
+        <article style="margin-bottom: 80px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 40px;">
+          <h2 style="font-family: 'Archivo Black', sans-serif; font-size: 52px; font-weight: 900; line-height: 0.85; margin: 0 0 20px 0; color: #ffffff; text-transform: uppercase; font-style: italic; letter-spacing: -3px;">Cómo le fue a Nacho Fernández en su último Clásico Platense | Infocielo</h2>
+          <p style="color: #F5F5DC; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 25px;">FUENTE: Infocielo</p>
+          <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQbGpYY256eU05eGk2b3VBdDRXR3Zfb0tkV3hUZmdoNTBUbkJXdk5uZUhLQ1pTVTZsRU5va1dTX1pSaXVPTTA5VnRTa1ZTT3I4OGk0Z3U5bng1MktDbjF0VkU0ejV1c1EwOTlDUUFxa3V5LXBKV2JTTEw3X0RtMUxWRlpfTFVLN1RlZnFPNktWdHFBTXk3QkRnR2NRRW11SkHSAZ8BQVVfeXFMUGxqWGNuenlNOXhpNm91QXQ0V0d2X29LZFd4VGZnaDUwVG5CV3ZObmVIS0NaU1U2bEVOb2tXU19aUml1T00wOVZ0U2tWU09yODhpNGd1OW54NTJLQ24xdFZFNHo1dXNRMDk5Q1FBcWt1eS1wSldiU0xMN19EbTFMVkZaX0xVSzdUZWZxTzZLVnRxQU15N0JEZ0djUUVtdUpB?oc=5" target="_blank" style="display: inline-block; border: 2px solid #F5F5DC; color: #F5F5DC; text-decoration: none; padding: 12px 25px; font-size: 11px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;">Leer nota completa</a>
         </article>
 
-        <section class="mt-40 grid grid-cols-1 md:grid-cols-2 gap-20 items-end">
-            <div>
-                <h3 class="text-3xl font-black uppercase italic leading-none mb-6">Unite a la<br>conversación.</h3>
-                <p class="text-white/50 text-sm max-w-xs">Información minuto a minuto del Club Atlético Platense desde el corazón de Saavedra.</p>
-            </div>
-            <div class="flex flex-col gap-4 items-start">
-                <a href="https://wa.me/5491136996115" class="text-4xl font-black italic hover:text-orange-400 transition-colors uppercase tracking-tighter">WhatsApp ↗</a>
-                <a href="https://www.instagram.com/capitan.saavedra/" class="text-4xl font-black italic hover:text-orange-400 transition-colors uppercase tracking-tighter">Instagram ↗</a>
-                <a href="https://www.youtube.com/@capitansaavedratv" class="text-4xl font-black italic hover:text-orange-400 transition-colors uppercase tracking-tighter">YouTube ↗</a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="p-20 text-center opacity-20">
-        <p class="text-[8px] font-black uppercase tracking-[1em]">Capitán Saavedra • 2026</p>
-    </footer>
+        <footer class="redes-footer">
+            <a href="https://wa.me/5491136996115">WHATSAPP</a>
+            <a href="https://www.instagram.com/capitan.saavedra/">INSTAGRAM</a>
+            <a href="https://www.youtube.com/@capitansaavedratv">YOUTUBE</a>
+        </footer>
+    </div>
 </body>
 </html>
