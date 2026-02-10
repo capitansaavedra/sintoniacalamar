@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; }
+        .bg-calamar { background-color: #4B2D1F; }
+        .text-calamar { color: #4B2D1F; }
+        .border-calamar { border-color: #4B2D1F; }
+        .btn-naranja { background-color: #FF8C00; transition: all 0.3s; }
+        .btn-naranja:hover { background-color: #e67e00; transform: scale(1.05); }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <header class="border-b-4 border-calamar py-6 px-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <img src="https://i.postimg.cc/mD8pL9f4/Sintonia-Calamar-Logo.png" class="h-16 md:h-20">
+            <div class="text-right hidden md:block">
+                <p class="text-[10px] font-black uppercase tracking-widest text-gray-400">El portal del hincha de Platense</p>
+                <p class="font-bold text-sm">10/2/2026</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow bg-gray-50 py-12 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+                <div class="bg-calamar p-2 text-center">
+                    <span class="text-white text-[10px] font-bold uppercase tracking-[0.3em]">Última Noticia</span>
+                </div>
+                <div class="p-8 md:p-16">
+                    <h1 class="text-4xl md:text-6xl font-black text-black leading-tight mb-8 uppercase italic tracking-tighter italic">
+                        Platense vs. Independiente, por el Torneo Apertura: horario, cómo ver y probables formaciones - Olé
+                    </h1>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPSThQdTBLYXZsSFZ1Z0RXdjktVWN6TmVVdldDdzBxS0pRZU5oWEUtNElzdF8yQWM5T2dDMW5LVzdsZjJCSjhTOWx3M3ZfSXlhN2w3eVJYN2YtNkFUQWQyZkUwY0FOUkF1LUNCVGFvY2pVSHZPWklnZ3ZfRnFrT0I3NTRUSzZJMlNCTk9wSUVDdnJZLXFiNkUzYTZjNFBLUVFHa2plQWR6bkhCNi1lT1JQSEQtcEUyY1V3MG93bW9ucG11bkV0Q0Vv0gHMAUFVX3lxTFB0VjdsN1VWbEozUG8wMkd2TTNCZnRBYlU5alg4Vng4RjlOQjY1SUdoU0JEd0pHTlFsNWstU0lyeTY2bngwNWtiWmJpUXd6eHBBR0U5MWJlVVQ1VHNQOVRJRldWOWZRanhnbFdtOHJWQXJYVmhmODltbWtnQ1JrSEpYRkxRMVFzenp0VnFCNndkMmNUTUxrTUpZNzZGY0wzWE55ME5KZlMxMzc3d1RzcmNYQjR4NnRDeGZKeENxYnRpSm1sOHhYWkNiVTZidg?oc=5" target="_blank" class="btn-naranja text-white px-10 py-5 rounded-full font-black uppercase text-sm shadow-lg">Leer Nota Completa</a>
+                        <a href="https://wa.me/" target="_blank" class="border-2 border-calamar text-calamar px-10 py-5 rounded-full font-black uppercase text-sm hover:bg-stone-100 transition-colors">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-stone-100 py-12 px-4 border-t border-gray-200">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <p class="text-calamar font-black text-xl italic uppercase">Sintonía Calamar</p>
+            <div class="flex gap-8">
+                <a href="#" class="text-gray-500 hover:text-orange-600 font-bold uppercase text-xs tracking-widest transition-colors">Instagram</a>
+                <a href="#" class="text-gray-500 hover:text-orange-600 font-bold uppercase text-xs tracking-widest transition-colors">YouTube</a>
+            </div>
+            <p class="text-gray-400 text-[10px] font-bold uppercase tracking-widest">© 2026 - Vicente López, Argentina</p>
+        </div>
+    </footer>
+</body>
+</html>
