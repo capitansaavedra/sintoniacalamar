@@ -7,34 +7,31 @@
         @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;700;900&display=swap');
         body { background-color: #4B2D1F; color: #ffffff; font-family: 'Inter', sans-serif; margin: 0; padding: 0; line-height: 1.6; }
         
-        /* HEADER REFORZADO */
+        /* HEADER CON LOGO AL DOBLE */
         .header { background: #ffffff; padding: 25px 40px; border-bottom: 10px solid #F5F5DC; display: flex; justify-content: space-between; align-items: center; }
-        .logo-box { display: flex; align-items: center; gap: 25px; }
-        .logo-img { height: 120px; width: auto; } /* LOGO MUCHO MÁS GRANDE */
+        .logo-box { display: flex; align-items: center; gap: 35px; }
+        .logo-img { height: 240px; width: auto; } /* LOGO AL DOBLE (Antes 120px) */
         .main-title { font-family: 'Archivo Black', sans-serif; font-size: 55px; line-height: 0.8; text-transform: uppercase; margin: 0; font-style: italic; color: #4B2D1F; letter-spacing: -3px; }
         
-        .ads-container { width: 320px; height: 180px; background: #000; border-radius: 8px; overflow: hidden; border: 4px solid #4B2D1F; }
+        /* PUBLICIDAD MÁS CHICA */
+        .ads-container { width: 220px; height: 120px; background: #000; border-radius: 8px; overflow: hidden; border: 3px solid #4B2D1F; }
         .contenedor { max-width: 1000px; margin: 0 auto; padding: 50px 20px; }
         
-        /* ESTILOS HOME */
         .editorial-home { display: flex; gap: 30px; align-items: center; background: rgba(255,255,255,0.05); padding: 30px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); }
         .foto-home { width: 180px; height: 180px; object-fit: cover; border-radius: 8px; border: 3px solid #F5F5DC; }
         .btn-leer { display: inline-block; background: #F5F5DC; color: #4B2D1F; text-decoration: none; padding: 12px 25px; font-size: 14px; font-weight: 900; text-transform: uppercase; cursor: pointer; border: none; font-family: 'Inter'; }
 
-        /* ESTILOS NOTA INTERNA */
         #nota-completa { display: none; }
         .foto-flotante { width: 350px; float: left; margin: 0 30px 20px 0; border-radius: 10px; border: 4px solid #F5F5DC; }
         .cuerpo-nota { font-size: 21px; text-align: justify; }
         .cuerpo-nota p { margin-bottom: 20px; }
         .clearfix::after { content: ""; clear: both; display: table; }
-
-        .tag-fuente { color:#F5F5DC; font-size:12px; font-weight:900; letter-spacing:4px; text-transform:uppercase; margin-bottom:10px; display:block; }
     </style>
 </head>
 <body>
     <header class="header">
         <div class="logo-box">
-            <img src="logo.jpg?v=1770777545519" class="logo-img">
+            <img src="logo.jpg?v=1770777715148" class="logo-img">
             <h1 class="main-title">SINTONIA<br>CALAMAR</h1>
         </div>
         <div class="ads-container">
@@ -47,7 +44,7 @@
             <section class="editorial-home">
                 <img src="julian.jpeg" class="foto-home">
                 <div>
-                    <span class="tag-fuente">EDITORIAL</span>
+                    <span style="color:#F5F5DC; font-size:12px; font-weight:900; letter-spacing:4px; text-transform:uppercase;">EDITORIAL</span>
                     <h2 style="font-family:'Archivo Black'; font-size:48px; margin:10px 0; font-style:italic; line-height:0.9;">"NO ME FUI A NINGÚN LADO"</h2>
                     <p style="font-size:18px; color:#e0e0e0; margin-bottom:20px;">Capitán Saavedra entrega el nombre a su nuevo/viejo escudo: SINTONIA CALAMAR: Julián Amerise, el Capi, nos cuenta por qué el cambio y centralizar todo, pero que seguirá estando siempre como ejecutor y cara principal de este medio vinculado al Club Atlético Platense y al barrio de Saavedra.</p>
                     <button onclick="verNota()" class="btn-leer">LEER NOTA COMPLETA ↗</button>
@@ -97,7 +94,7 @@
         </div>
 
         <footer style="text-align:center; margin-top:80px; padding:40px 0; border-top:1px solid rgba(255,255,255,0.1);">
-            <p style="font-size:12px; opacity:0.6; letter-spacing:2px;">SINTONÍA CALAMAR TV © 2026 | EL MISMO SENTIMIENTO</p>
+            <p style="font-size:12px; opacity:0.6; letter-spacing:2px;">SINTONÍA CALAMAR TV © 2026</p>
         </footer>
     </div>
 
